@@ -1,0 +1,52 @@
+.lightTheme {
+  background-color: #fff;
+  color: #000;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.darkTheme {
+  background-color: #000;
+  color: #fff;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+}
+.darkButtonTheme {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.darkButtonTheme:hover {
+  background-color: #ddd; /* Change the background color on hover */
+  color: #000;
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+.lightButtonTheme {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.lightButtonTheme:hover {
+  background-color: #ddd; /* Change the background color on hover */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+.themeTitleText {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px;
+}
